@@ -1,4 +1,3 @@
-package javAgain;
 import java.util.Scanner;
 public class Pp3 {
 	public static void main(String [] args) {
