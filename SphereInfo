@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class Pp8 {
+	public static void main(String [] args) {
+		System.out.println("Enter a radius for a sphere and I will give the volume and surface area for it.");
+		Scanner scn = new Scanner(System.in);
+		double r = scn.nextDouble();
+		System.out.println("Surface area of a sphere of radius " + r +" is " + (4*Math.PI*Math.pow(r, 2)));
+		System.out.println("Volume of a sphere of radius " + r + " is " + ((4/3) * Math.PI * Math.pow(r, 3)));
+	}
+
+}
